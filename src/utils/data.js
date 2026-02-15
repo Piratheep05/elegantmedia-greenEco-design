@@ -1,8 +1,8 @@
-import cardPlantTree from '../assets/card-plant-tree.jpg';
-import cardDonation from '../assets/card-donation.jpg';
-import cardVolunteer from '../assets/card-volunteer.jpg';
-import cardTools from '../assets/card-tools.jpg';
-
+import cardPlantTree from "../assets/card-plant-tree.jpg";
+import cardDonation from "../assets/card-donation.jpg";
+import cardVolunteer from "../assets/card-volunteer.jpg";
+import cardTools from "../assets/card-tools.jpg";
+import logo from "../assets/logo-1.png";
 
 export const navLinks = ["Impact", "About Us", "Contribution", "News & Update"];
 
@@ -60,4 +60,23 @@ export const hashTags = [
   "#Conservation",
   "#GreenTech",
   "#EarthDay",
+  "#EV",
+  "#Decarbonization",
+  "#LEAF",
+  "#GreenFuture",
+  "#PlantTrees",
+];
+
+export const partners = [
+  { image: logo },
+  { image: logo },
+  { image: logo },
+  { image: logo },
+  { image: logo },
+  { image: logo },
+  { image: logo },
+  { image: logo },
+  { image: logo },
+  { image: logo },
+  { image: logo },
 ];

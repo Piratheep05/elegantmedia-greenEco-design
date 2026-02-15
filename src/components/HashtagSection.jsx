@@ -13,6 +13,26 @@ const HashtagSection = () => {
         borderBottom: "1px solid #e0dcd4",
       }}
     >
+      <Box
+        sx={{
+          display: 'flex',
+          gap: 5,
+        }}
+      >
+        {hashTags.map((tag, i) => (
+          <Typography
+            key={i}
+            sx={{
+              fontWeight: 500,
+              fontSize: '0.95rem',
+              color: '#1a1a1a',
+              whiteSpace: 'nowrap',
+            }}
+          >
+            {tag}
+          </Typography>
+        ))}
+      </Box>
       
      
     </Box>

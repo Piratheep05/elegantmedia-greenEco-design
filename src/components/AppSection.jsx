@@ -30,7 +30,6 @@ const AppSection = () => {
                 fontFamily: "Racostane",
                 fontWeight: 600,  
                 mb: 2,
-                borderLeft: '3px solid #8bc34a',
               }}
             >
               1 Million trees worldwide
