@@ -4,11 +4,12 @@ import {
   Toolbar,
   Typography,
   Box,
-  Button,
   Container,
 } from "@mui/material";
 import SpaIcon from "@mui/icons-material/Spa";
 import { navLinks } from "../utils/data";
+import Button from "./ui/Button";
+import { FONTS } from "../utils/constants";
 
 const Header = () => {
   return (
@@ -25,7 +26,7 @@ const Header = () => {
           <Box sx={{ display: "flex", alignItems: "center", gap: 0.5 }}>
             <SpaIcon sx={{ color: "#2E7D32", fontSize: 28 }} />
 
-            <Typography variant="h6" component="div">
+            <Typography variant="h5" sx={{ color: "#000",fontFamily: FONTS.SECONDARY, fontWeight: 800 }}>
               GreenEco
             </Typography>
           </Box>
@@ -63,17 +64,7 @@ const Header = () => {
             >
               Sign in
             </Typography>
-            <Button
-              variant="contained"
-              sx={{
-                backgroundColor: "#3aa457",
-                borderRadius: "8px",
-                textTransform: "none",
-                px: 3,
-                py: 1.2,
-                "&:hover": { backgroundColor: "#256b29" },
-              }}
-            >
+            <Button>
               Make A Difference
             </Button>
           </Box>
