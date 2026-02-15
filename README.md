@@ -1,6 +1,15 @@
 # Assessment Elegant
 
 Option 1: Manual Coding Task (No Generative AI)
+Name: R.Piratheep  
+Date: 15 February 2026
+
+### Design Reference
+
+- UI design inspired by the "GreenEco Landing Page" concept on Dribbble:
+  https://dribbble.com/shots/22889194-GreenEco-Landing-Page
+
+This project recreates the layout and styling for learning and demonstration purposes.
 
 ## Tech Stack
 - React - UI library
