@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Container, Typography, Divider } from "@mui/material";
+import { Box, Container, Typography } from "@mui/material";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import AllInclusiveIcon from "@mui/icons-material/AllInclusive";
 import forestStrip from "../assets/forest-strip.jpg";
@@ -55,7 +55,7 @@ const MissionSection = () => {
             Greener Future
           </Typography>
         </Box>
-        <Divider />
+       
         <Box sx={{ textAlign: "center", mb: 2 }}>
           <Typography
             sx={{
@@ -69,7 +69,7 @@ const MissionSection = () => {
             Our Mission to Plant Trees and Reduce
           </Typography>
         </Box>
-        <Divider />
+       
         <Box
           sx={{
             display: "flex",
