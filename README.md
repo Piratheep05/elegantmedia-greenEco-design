@@ -1,16 +1,52 @@
-# React + Vite
+# Assessment Elegant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Option 1: Manual Coding Task (No Generative AI)
 
-Currently, two official plugins are available:
+## Tech Stack
+- React - UI library
+- Vite - Build tool and dev server
+- Material-UI (MUI)- Component library for React
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Documentation & References
 
-## React Compiler
+- [MUI Official Documentation](https://mui.com/) – Used for UI component development and styling.
+- [MUI Templates](https://mui.com/material-ui/getting-started/templates/) – Referenced sample layouts and component structure examples.
+- Various online resources and official documentation were consulted for layout inspiration and best practices.
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+### Image Sources
+Images used in this project are sourced from:
+- Unsplash-https://unsplash.com/
+- Pexels -https://www.pexels.com/
+- Pixabay -https://pixabay.com/
+- Freepik -https://www.freepik.com/
+- StockSnap -https://stocksnap.io/
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Image Editing Tools
+- Remove.bg - https://www.remove.bg/ – Used to remove backgrounds from images.
+- Image Color Picker- https://imagecolorpicker.com/ – Used to find and match background colors.
+- WhatFontIs - https://www.whatfontis.com/  – Used to identify fonts from design images.
+
+
+### Installation
+
+1. Clone the repository
+git clone <repository-url>
+cd Assesment-elegant
+
+
+2. Install dependencies
+npm install
+
+
+3. Start the development server
+npm run dev
+
+
+4. Open your browser and navigate to `http://localhost:5173`
+
+
+This project uses Material-UI components following the official MUI documentation. Images have been processed using background removal tools and color matching to ensure consistent design.
+
+- Created a centralized `Button` component (`src/components/ui/Button.jsx`)
+-Separated constants and data into utility files (`src/utils/`)
