@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Container, Typography } from "@mui/material";
+import { Box, Container, Typography,Divider } from "@mui/material";
 import { counts } from "../utils/data";
 
 const CountSection = () => {
@@ -23,6 +23,7 @@ const CountSection = () => {
           }}
         >
           {counts.map((stat, index) => (
+            <>
             <Box sx={{ textAlign: "center", flex: 1, px: { md: 4 } }}>
               <Typography
                 variant="h3"
@@ -47,6 +48,17 @@ const CountSection = () => {
                 {stat.label}
               </Typography>
             </Box>
+             {index < counts.length - 1 && (
+                <Divider
+                  orientation="vertical"
+                  flexItem
+                  sx={{
+                    borderColor: 'rgba(255,255,255,0.2)',
+                    display: { xs: 'none', md: 'block' },
+                  }}
+                />
+              )}
+              </>
           ))}
         </Box>
       </Container>

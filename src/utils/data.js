@@ -80,3 +80,6 @@ export const partners = [
   { image: logo },
   { image: logo },
 ];
+
+export const leftLinks = ['About Us', 'Contribution', 'FAQ', 'Contact'];
+export const rightLinks = ['Privacy Policy', 'Terms & Conditions', 'Cookie Policy'];
