@@ -7,6 +7,7 @@ import ContributionSection from './components/ContributionSection';
 import AppSection from './components/AppSection';
 import HashtagSection from './components/HashtagSection';
 import PartnerSection from './components/PartnerSection';
+import NewsSection from './components/NewsSection';
 
 function App() {
  return (
@@ -19,6 +20,7 @@ function App() {
       <AppSection />
        <HashtagSection />
       <PartnerSection />
+      <NewsSection />
      
     </>
   )
