@@ -4,6 +4,7 @@ import HomeSection from './components/HomeSection';
 import CountSection from './components/CountSection';
 import MissionSection from './components/MissionSection';
 import ContributionSection from './components/ContributionSection';
+import AppSection from './components/AppSection';
 
 function App() {
  return (
@@ -13,6 +14,7 @@ function App() {
       <CountSection />
       <MissionSection />
       <ContributionSection />
+      <AppSection />
     </>
   )
 }
