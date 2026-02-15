@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Header from './components/Header';
 import HomeSection from './components/HomeSection';
+import CountSection from './components/CountSection';
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header />
       <HomeSection />
+      <CountSection />
     </>
   )
 }
