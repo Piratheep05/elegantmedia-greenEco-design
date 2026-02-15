@@ -1,0 +1,1 @@
+export const navLinks = ['Impact', 'About Us', 'Contribution', 'News & Update'];
